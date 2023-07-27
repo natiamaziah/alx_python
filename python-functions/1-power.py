@@ -1,2 +1,3 @@
 def pow(a,b):
-    return(pow)
+    x=pow(a,b)
+    print(x)
