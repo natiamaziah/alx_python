@@ -1,2 +1,5 @@
-for x in range(0, 99):
-  print("{:d}={}".format(x,hex(x) ))
+def new_func():
+    for x in range(0, 99):
+      print("{:d}={}".format(x,hex(x) ))
+
+new_func()
