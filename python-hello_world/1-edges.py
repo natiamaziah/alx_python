@@ -1,4 +1,5 @@
-school = "Holberton"
-print("First 3 letters: {}".format(school[:3]))
-print("Last 2 letters: {}".format(school[7:]))
-print("Middle word: {}".format(school[1:8]))
+word = "Holberton"
+print("First 3 letters: {}".format(word[:3]))
+print("Last 2 letters: {}".format(word[-2:]))
+print("Middle word: {}".format(word[1:-1]))
+
