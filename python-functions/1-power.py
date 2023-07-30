@@ -1,3 +1,6 @@
+#!/usr/bin/env python3
+
 def pow(a,b):
-    x=pow(a,b)
-    return(x)
+    sq=(a)^(b)
+    return(sq)
+
