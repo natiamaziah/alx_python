@@ -1,6 +1,7 @@
 #!/usr/bin/env python3
-pow = __import__('8-pow').pow
+a=int(input("enter numbers:"))
+b=int(input("enter numbers:"))  
 def pow(a,b):
-    sq=(a)^(b)
+    sq=a**b
     return(sq)
-
+print(pow(a,b))
