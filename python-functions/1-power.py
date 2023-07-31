@@ -1,6 +1,6 @@
 #!/usr/bin/env python3
-a=int(input("enter numbers:"))
-b=int(input("enter numbers:"))  
+a=int(input(""))
+b=int(input(""))  
 def pow(a,b):
     sq=a**b
     return(sq)
