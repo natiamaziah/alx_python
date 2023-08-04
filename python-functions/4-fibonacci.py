@@ -1,9 +1,11 @@
 def fibonacci_sequence(n):
-    result = [0, 1]
+    result = []
+    a,b=0,1
     while len(result) < n:
-        result.append(result[-1] + result[-2])
+        result.append(a)
+        a,b=b,a+b
     return result
 
-
+print(fibonacci_sequence(6))
 
 
