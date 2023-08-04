@@ -1,9 +1,9 @@
-def fibonacci_sequence(x): 
-  cache ={0:0, 1:1}
-  def fibonacci_of(n):
-        if n in cache:  
-           return cache[n]
-        cache[n] = fibonacci_of(n - 1) + fibonacci_of(n - 2)  
-        return cache[n]
-  print([fibonacci_of(n) for n in range(x)])
-
+def fibonacci_sequence(n): # return Fibonacci series up to n
+    """Return a list containing the Fibonacci series up to n."""
+    result = []
+    a, b = 0, 1
+    while a < n:
+        result.append(a)    # see below
+        a, b = b, a+b
+    return result
+print(fibonacci_sequence(6))
