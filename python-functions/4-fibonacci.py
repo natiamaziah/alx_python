@@ -6,3 +6,4 @@ def fibonacci_sequence(n): # return Fibonacci series up to n
         result.append(a)    # see below
         a, b = b, a+b
     return result
+print(fibonacci_sequence(5000))
