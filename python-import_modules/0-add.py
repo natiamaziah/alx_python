@@ -1,2 +1,3 @@
 from add_0 import add
-print(add(1,2))
+ 
+print("{:d}+{:d}={:d}".format(1,2,1+2))
