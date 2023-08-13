@@ -1,5 +1,7 @@
-def raise_exception_msg(message="c is fun"):
-  try:
-    raise_exception_msg("C is fun")
-  except NameError as ne:
-    print(ne)
+def raise_exception_msg(message=""):
+    try:
+      ans=raise_exception_msg("C is fun")
+      print(ans)
+    except NameError as e:
+      print(e)
+      
