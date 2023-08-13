@@ -1,3 +1,4 @@
 def raise_exception_msg(message=""):
-    raise NameError()
+    raise NameError("c is fun")
       
+s
