@@ -14,4 +14,3 @@ def safe_print_division(a, b):
         print("{:d} / {:d} = {}".format(a, b, result))
     finally:
         pass
-safe_print_division(10,2)
