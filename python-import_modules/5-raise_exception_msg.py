@@ -1,10 +1,9 @@
 def raise_exception_msg(message=""):
   
-  try:
+  try: 
     message="c is fun"
-    raise_exception_msg(message)
+    raise NameError(message)
   except NameError as err:
-    print(err)
+    print("c is fun")
   
 
-print(raise_exception_msg("orp"))
