@@ -1,19 +1,16 @@
 
 def safe_print_division(a, b):
     try:
-        result = int(a) / int(b)
         if b == 0:
             raise ZeroDivisionError("Division by zero not allowed.")
         
-    except ZeroDivisionError as e:
-        result = None
+        result = int(a) / int(b)
        
-    finally:
-      result=int(a) / int(b)
-      print("Inside result: {}".format(result))
+    except ZeroDivisionError:
+        result = None
       
+    finally:
+        print("Inside result: {}".format(result))
       
     return result
-
-
-   
+safe_print_division(10,2)
