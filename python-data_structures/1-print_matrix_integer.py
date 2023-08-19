@@ -4,4 +4,4 @@ def print_matrix_integer(matrix=[[]]):
             [4, 5, 6],
             [7, 8, 9]
             ]
-    print("{}".format(matrix))
+    print("{:d}".format(matrix))
