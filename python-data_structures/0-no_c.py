@@ -4,9 +4,8 @@ def no_c(my_string):
   for char  in my_string:
     if char not in del_c:
       str2=str2+char
-  
+  print(str2)  
   return my_string
   
          
          
-
