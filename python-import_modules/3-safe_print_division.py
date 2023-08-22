@@ -9,12 +9,13 @@ def safe_print_division(a, b):
     except ZeroDivisionError as e:
         result = None
        
-    finally:
+    '''finally:
+        
      
       print("Inside result: {}".format(result))
       
       
-    return result
+    return result'''
 
 
    
